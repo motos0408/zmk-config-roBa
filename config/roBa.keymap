@@ -107,7 +107,7 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &kp LG(X)  &kp LG(C)                        &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &kp LG(X)  &kp LG(C)                        &trans  &mkp MB4  &mkp MB5  &trans    &trans
 &trans  &trans  &trans  &trans     &kp LG(V)  &trans      &mkp MB4  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
 &trans  &trans  &trans  &trans     &trans     &trans      &mkp MB5  &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans     &trans     &trans      &trans    &trans                                &trans
