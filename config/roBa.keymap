@@ -1,7 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
 #define MOUSE 4
@@ -68,10 +67,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R                       &kp T                                                         &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A      &kp S         &kp D         &kp F                       &kp G        &kp LS(LG(S))                     &kp SQT        &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&kt Z      &kp X         &kp C         &kp V                       &kp B        &kp LEFT_SHIFT                    &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LS(LC(J))  &lt 2 SPACE  &lt_to_layer_0 3 LS(LC(SQT))      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&kp Q      &kp W         &kp E         &kp R                         &kp T                                                       &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A      &kp S         &kp D         &kp F                         &kp G        &kp LS(LG(S))                   &kp SQT        &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&kp Z      &kp X         &kp C         &kp V                         &kp B        &kp LEFT_SHIFT                  &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LS(LC(SQT))  &lt 2 SPACE  &lt_to_layer_0 3 LS(LC(J))      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -79,10 +78,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&trans        &trans           &trans              &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&kp C_VOL_DN  &kp C_VOLUME_UP  &trans              &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&kp C_REWIND  &kp C_PAUSE      &kp C_FAST_FORWARD  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
+&trans        &trans           &trans              &trans  &trans  &trans      &trans   &trans                          &kp F12
             >;
         };
 
