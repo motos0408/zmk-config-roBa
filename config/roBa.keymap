@@ -72,10 +72,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp E             &kp R                     &kp T                                                                               &kp Y          &kp U  &lt 5 I    &kp O      &kp P
-&kp A      &kp S         &kp D             &kp F                     &kp G                   &kp LS(LG(S))                   &kp SQT                     &kp H          &kp J  &kp K      &kp L      &mt RCTRL ENTER
-&kp Z      &kp X         &kp C             &kp V                     &kp B                   &kp LEFT_SHIFT                  &kp SEMICOLON               &kp N          &kp M  &mkp LCLK  &mkp RCLK  &mt RIGHT_SHIFT SLASH
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LS(LC(SINGLE_QUOTE))  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 2 LS(LC(J))      &lt_to_layer_0 3 BACKSPACE  &kp LS(LC(J))                               &kp ESCAPE
+&kp Q      &kp W         &kp E             &kp R          &kp T                                                                               &kp Y                &kp U  &lt 5 I    &kp O      &kp P
+&kp A      &kp S         &kp D             &kp F          &kp G                   &kp LS(LG(S))                   &kp COMMA                   &kp H                &kp J  &kp K      &kp L      &mt RCTRL ENTER
+&kp Z      &kp X         &kp C             &kp V          &kp B                   &kp LEFT_SHIFT                  &kp PERIOD                  &kp N                &kp M  &mkp LCLK  &mkp RCLK  &kp QUESTION
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LS(LC(E))  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 2 LS(LC(J))      &lt_to_layer_0 3 BACKSPACE  &mt LS(LC(J)) ENTER                               &kp EXCLAMATION
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
